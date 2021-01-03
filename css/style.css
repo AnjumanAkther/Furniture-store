@@ -1,0 +1,181 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* header start */
+
+*{
+    color: white;
+    margin: 0px;
+}
+body{
+}
+/* header start */
+.combo_part{
+    background: url(../images/pexels-anastasia-shuraeva-4122924.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+  background-color:#00000085;
+  padding:15px 0px;
+  border-bottom:1px solid rgba(255, 255, 255, 0.315) !important;
+}
+.wrapper{
+    width:70%;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.logo{
+    width:13%;
+    float: left;
+    padding-top:20px;
+}
+.logo img{
+    width:100%
+}
+.menu{
+    width: 60%;
+    float: right; 
+    /* margin: 10px 50px; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    display: inline;
+    list-style: none;
+    margin: 15px 0px;
+}
+.menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height:40px;
+    color: #d2d2d2;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: right;
+    margin: 10px 10px;
+    display: inline-block;
+    transition: .6s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    color: white;
+}
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px ;
+    font-weight:400 ;
+    letter-spacing:1px;
+    padding:2px 20px;
+    color: white ;
+    text-transform: uppercase ;
+    background-color: rgba(0, 0, 0, 0.068);
+    border: 2px solid white;
+}
+.btn:hover{
+    background: rgb(255, 255, 255);
+    color: black !important;
+}
+/* header end */
+/* banner section start */
+.banner{
+    width:100%;
+    min-height: 850px;
+    text-align: center;
+    padding-top: 250px;
+    box-sizing: border-box;
+    background-color:#00000085;
+
+}
+ .hero{
+    width: 50%;
+}
+.hero h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #edb932;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.b_h{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height:53px ;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-top:30px;
+}
+.b_p{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 30px 0px;
+
+}
+.hero_b{
+    text-align: left;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px ;
+    font-weight:400 ;
+    letter-spacing:1px;
+    padding:10px 30px;
+    color: white ;
+    text-transform: uppercase;;
+    background-color: rgba(0, 0, 0, 0.068);
+    border: 2px solid white;  
+    text-align: left ;
+}
+button:hover{
+    background: white;
+    color: black ;;
+}
+.hero_icon{
+    overflow: hidden;
+    display: inline;
+}
+.h_left{
+    width:80% ;
+    float: left;
+    display: inline; 
+}
+.h_left h2{
+    font-family: 'Roboto', sans-serif;
+    font-size:13px ;
+    font-weight:400 ;
+    letter-spacing:1px;
+    text-transform: capitalize;
+    color: white;
+    text-align: left;
+    padding-top:215px ;
+   
+
+}
+.h_right{
+    width:9%;
+    float: right;
+    padding-top:200px ;
+}
+i{
+    padding:10px ;
+}
+i:hover{
+    color: #edb932;
+}
+
+
